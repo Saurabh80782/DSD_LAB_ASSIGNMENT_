@@ -7,7 +7,7 @@ module half_adder_test;
     reg A, B;
     wire Sum, Carry;
 
-    // Instantiate the Half Adder
+
     half_adder ha (A, B, Sum, Carry);
 
     initial begin
