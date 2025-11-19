@@ -1,4 +1,5 @@
 module boolean_expr(
+    
     input  wire a,
     input  wire b,
     input  wire c,
@@ -6,4 +7,5 @@ module boolean_expr(
 );
     assign y = (~a & b) | (a & ~b) | (b & c);
 endmodule
+
 
