@@ -8,6 +8,7 @@ module half_subtractot_test;
 
     initial begin
         $display("A B | Diff Borrow");
+         
         $display("----------------");
 
         A=0; B=0; #10; $display("%b %b |  %b     %b", A, B, Difference, Borrow);
