@@ -1,6 +1,3 @@
-// basic_gates.v
-// Basic logic gates example
-
 module basic_gates(
     input  wire a,
     input  wire b,
@@ -18,3 +15,4 @@ module basic_gates(
     assign y_nor   = ~(a | b);
     assign y_not_a = ~a;
 endmodule
+
