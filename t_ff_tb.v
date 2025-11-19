@@ -1,11 +1,10 @@
-`timescale 1ns / 1ps
 module t_ff_tb;
     reg clk, t;
     wire q, qbar;
 
     t_ff dut (.clk(clk), .t(t), .q(q), .qbar(qbar));
 
-    always #5 clk = ~clk; // Clock with 10ns period
+    always #5 clk = ~clk; 
 
     initial begin
         clk=0; t=0;
