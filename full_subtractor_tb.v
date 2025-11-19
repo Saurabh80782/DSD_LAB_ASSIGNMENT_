@@ -1,5 +1,6 @@
 `timescale 1ns / 1ps
 module full_subtractor_tb;
+    
     reg a, b, bin;
     wire diff, bout;
 
