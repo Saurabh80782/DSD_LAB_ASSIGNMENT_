@@ -1,4 +1,3 @@
-
 module decoder_2to4(
     input  wire [1:0] a,
     input  wire       en,
@@ -16,4 +15,5 @@ module decoder_2to4(
             y = 4'b0000;
     end
 endmodule
+
 
