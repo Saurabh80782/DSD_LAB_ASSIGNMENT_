@@ -9,10 +9,10 @@ module sr_ff(
 
     always @(posedge clk) begin
         case ({s,r})
-            2'b00: q <= q;     // Hold
-            2'b01: q <= 0;     // Reset
-            2'b10: q <= 1;     // Set
-            2'b11: q <= 1'bx;  // Invalid
+            2'b00: q <= q;     
+            2'b01: q <= 0;     
+            2'b10: q <= 1;     
+            2'b11: q <= 1'bx;  
         endcase
     end
 endmodule
