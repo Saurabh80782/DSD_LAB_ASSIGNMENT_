@@ -3,7 +3,7 @@ module full_adder_tb;
     reg a, b, cin;
     wire sum, cout;
 
-    // Instantiate Device Under Test (DUT)
+    
     full_adder dut (
         .a(a),
         .b(b),
