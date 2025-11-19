@@ -5,7 +5,7 @@ module d_ff_tb;
 
     d_ff dut (.clk(clk), .d(d), .q(q), .qbar(qbar));
 
-    always #5 clk = ~clk; // 10ns clock
+    always #5 clk = ~clk; 
 
     initial begin
         clk = 0; d = 0;
