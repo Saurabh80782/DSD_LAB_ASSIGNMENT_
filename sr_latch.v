@@ -1,4 +1,5 @@
 module sr_latch (
+    
     input  wire S,    
     input  wire R,    
     output wire Q,
