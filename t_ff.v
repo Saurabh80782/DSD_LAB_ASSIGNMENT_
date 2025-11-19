@@ -8,8 +8,8 @@ module t_ff(
 
     always @(posedge clk) begin
         if (t)
-            q <= ~q;   // Toggle on each clock
+            q <= ~q;   
         else
-            q <= q;    // Hold
+            q <= q;    
     end
 endmodule
