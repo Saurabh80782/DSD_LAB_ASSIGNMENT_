@@ -7,6 +7,6 @@ module d_ff(
     assign qbar = ~q;
 
     always @(posedge clk) begin
-        q <= d;   // captures D on each clock edge
+        q <= d;   
     end
 endmodule
