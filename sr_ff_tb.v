@@ -1,4 +1,3 @@
-`timescale 1ns / 1ps
 module sr_ff_tb;
     reg clk, s, r;
     wire q, qbar;
